@@ -3,11 +3,11 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { View } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import HomeScreen from './component/Home';
-import SearchScreen from './component/Search';
-import WatchlistScreen from './component/Watchlist';
-import SettingsScreen from './component/Settings';
-import { ThemeProvider, useTheme } from './component/ThemeContext';
+import HomeScreen from './page/Home';
+import SearchScreen from './page/Search';
+import WatchlistScreen from './page/Watchlist';
+import SettingsScreen from './page/Settings';
+import { ThemeProvider, useTheme } from './page/ThemeContext';
 
 const Tab = createBottomTabNavigator();
 
